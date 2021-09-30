@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/drluli/static/css/main.450e1622.chunk.css",
+    "main.js": "/drluli/static/js/main.961f0458.chunk.js",
+    "main.js.map": "/drluli/static/js/main.961f0458.chunk.js.map",
+    "runtime-main.js": "/drluli/static/js/runtime-main.29c6b1b2.js",
+    "runtime-main.js.map": "/drluli/static/js/runtime-main.29c6b1b2.js.map",
+    "static/js/2.08a014c0.chunk.js": "/drluli/static/js/2.08a014c0.chunk.js",
+    "static/js/2.08a014c0.chunk.js.map": "/drluli/static/js/2.08a014c0.chunk.js.map",
+    "static/js/3.24f94f41.chunk.js": "/drluli/static/js/3.24f94f41.chunk.js",
+    "static/js/3.24f94f41.chunk.js.map": "/drluli/static/js/3.24f94f41.chunk.js.map",
+    "static/js/4.5f7e6eb3.chunk.js": "/drluli/static/js/4.5f7e6eb3.chunk.js",
+    "static/js/4.5f7e6eb3.chunk.js.map": "/drluli/static/js/4.5f7e6eb3.chunk.js.map",
+    "static/js/5.a6561d7e.chunk.js": "/drluli/static/js/5.a6561d7e.chunk.js",
+    "static/js/5.a6561d7e.chunk.js.map": "/drluli/static/js/5.a6561d7e.chunk.js.map",
+    "static/js/6.ca001143.chunk.js": "/drluli/static/js/6.ca001143.chunk.js",
+    "static/js/6.ca001143.chunk.js.map": "/drluli/static/js/6.ca001143.chunk.js.map",
+    "static/js/7.b7cdae5b.chunk.js": "/drluli/static/js/7.b7cdae5b.chunk.js",
+    "static/js/7.b7cdae5b.chunk.js.map": "/drluli/static/js/7.b7cdae5b.chunk.js.map",
+    "static/js/8.81719198.chunk.js": "/drluli/static/js/8.81719198.chunk.js",
+    "static/js/8.81719198.chunk.js.map": "/drluli/static/js/8.81719198.chunk.js.map",
+    "static/js/9.00a528ef.chunk.js": "/drluli/static/js/9.00a528ef.chunk.js",
+    "static/js/9.00a528ef.chunk.js.map": "/drluli/static/js/9.00a528ef.chunk.js.map",
+    "static/js/10.5efbe828.chunk.js": "/drluli/static/js/10.5efbe828.chunk.js",
+    "static/js/10.5efbe828.chunk.js.map": "/drluli/static/js/10.5efbe828.chunk.js.map",
+    "static/js/11.93604c05.chunk.js": "/drluli/static/js/11.93604c05.chunk.js",
+    "static/js/11.93604c05.chunk.js.map": "/drluli/static/js/11.93604c05.chunk.js.map",
+    "index.html": "/drluli/index.html",
+    "static/css/main.450e1622.chunk.css.map": "/drluli/static/css/main.450e1622.chunk.css.map",
+    "static/js/2.08a014c0.chunk.js.LICENSE.txt": "/drluli/static/js/2.08a014c0.chunk.js.LICENSE.txt",
+    "static/js/3.24f94f41.chunk.js.LICENSE.txt": "/drluli/static/js/3.24f94f41.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.29c6b1b2.js",
+    "static/js/3.24f94f41.chunk.js",
+    "static/css/main.450e1622.chunk.css",
+    "static/js/main.961f0458.chunk.js"
+  ]
+}
