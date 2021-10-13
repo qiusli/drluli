@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "3.0.1",
-  "homepage": "https://drluli.ca",
+  "homepage": "https://www.drluli.ca",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://drluli.ca"
+    "url": "https://github.com/qiusli/drluli"
   },
   "scripts": {
     "build": "rimraf ./build && react-scripts build",
