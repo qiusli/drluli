@@ -14,21 +14,27 @@ const NotFound = lazy(() => import('./pages/NotFound'));
 const Projects = lazy(() => import('./pages/Projects'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Stats = lazy(() => import('./pages/Stats'));
+const GeneralDentistry = lazy(() => import('./pages/Stats'));
+const Appointment = lazy(() => import('./pages/Appointment'));
+const SubmitSuccess = lazy(() => import('./pages/SubmitSuccess'));
 
 const App = () => (
-  <BrowserRouter basename={PUBLIC_URL}>
-    <Suspense fallback={<Main />}>
-      <Switch>
-        <Route exact path="/" component={About} />
-        <Route path="/about" component={About} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/stats" component={Stats} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
-        <Route component={NotFound} status={404} />
-      </Switch>
-    </Suspense>
-  </BrowserRouter>
+    <BrowserRouter basename={PUBLIC_URL}>
+      <Suspense fallback={<Main />}>
+        <Switch>
+          <Route exact path="/" component={About} />
+          <Route path="/about" component={About} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/stats" component={Stats} />
+          <Route path="/GeneralDentistry" component={GeneralDentistry} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/appointment" component={Appointment} />
+          <Route path="/resume" component={Resume} />
+          <Route path="/SubmitSuccess" component={SubmitSuccess} />
+          <Route component={NotFound} status={404} />
+        </Switch>
+      </Suspense>
+    </BrowserRouter>
 );
 
 export default App;
