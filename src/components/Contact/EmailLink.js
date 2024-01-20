@@ -5,8 +5,8 @@ const EmailLink = () => (
     className="inline-container"
     style={{}}
   >
-    <a href="mailto:echo-dentist.scu@foxmail.com">
-      <span>echo-dentist.scu@foxmail.com</span>
+    <a href="mailto:drluli@gmail.com">
+      <span>drluli@gmail.com</span>
     </a>
   </div>
 );

@@ -22,7 +22,7 @@ const data = [
     icon: faLinkedinIn,
   },
   {
-    link: 'mailto:echo-dentist.scu@foxmail.com',
+    link: 'mailto:drluli@gmail.com',
     label: 'Email',
     icon: faEnvelope,
   },
