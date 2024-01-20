@@ -23,7 +23,6 @@ class Navigation extends React.Component {
     }
 
     handleClick(label, items, event) {
-        console.log('== click items: ' + JSON.stringify(items));
         if (label === 'General Dentistry') {
             this.setState({
                 open: !this.state.open,
@@ -56,7 +55,7 @@ class Navigation extends React.Component {
                         ))}
                         {hoverOvers.filter((l) => !l.index).map((l) => (
                             <li key={l.label} onClick={(e) => this.handleClick(l.label, l.items, e)}>
-                                <Link to={l.path}>{l.label}</Link>
+                                <Link to="/#">{l.label}</Link>
                             </li>
                         ))}
                         {routes2.filter((l) => !l.index).map((l) => (
