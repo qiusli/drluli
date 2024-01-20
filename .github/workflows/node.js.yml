@@ -8,28 +8,38 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest
-
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
     strategy:
       matrix:
-        node-version: [16.x]
-
+        node-version: [ 16.x ]
+        os: [ ubuntu-20.04, windows-latest, macos-latest ]
+        exclude:
+          - os: windows-latest
+            node-version: 16.x
+          - os: windows-latest
+            node-version: 16.x
+          - os: macos-latest
+            node-version: 16.x
+          - os: macos-latest
+            node-version: 16.x
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - name: Build and Statically Render
-      run: npm run predeploy
-      env:
-        NODE_ENV: development
-    - name: Test
-      run: npm test
-      env:
-        NODE_ENV: development
+      - uses: actions/checkout@v4
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - run: npm ci
+      - name: Build and Statically Render
+        run: npm run predeploy
+        env:
+          NODE_ENV: development
+      - name: Test
+        run: npm test
+        env:
+          NODE_ENV: development
